@@ -1,0 +1,81 @@
+body{
+    background-color: #7fffd4;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 360px;
+    background-color: #f2f8f0;
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid rgb(9, 255, 0);
+    margin-right: 20px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 360px;
+    background-color: #f2f8f0;
+    border-radius: 25px;
+    padding: 50px;
+    border: 8px solid aqua;
+    margin-right: 20px;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p{
+    text-align: justify;
+    margin-bottom: 50px;
+} 
+
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: violet;
+    color: white;
+    transition: 540ms;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: purple;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+body:hover{
+    background-color: rgb(30, 255, 0);
+    transition: 800ms;
+}
+
+/* reto */ 
+
+.tarjeta a:hover{
+    background-color:yellow;
+    color: black;
+    transition: 540ms;
+}
